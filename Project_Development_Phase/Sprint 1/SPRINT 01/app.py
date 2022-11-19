@@ -27,7 +27,7 @@ app.secret_key = 'your secret key'
 
 @app.route('/')
 def home():
-    message = "TEAM ID : PNT2022TMID37544" +" "+ "BATCH ID : B1-1M3E "
+    message = "TEAM ID : PNT2022TMID09747" +" "+ "BATCH ID : B11-5A1E "
     return render_template('index.html',mes=message)
 
 
@@ -92,9 +92,9 @@ def forgot():
         html_content = "<html><body><h1>Your verification Code is : <h2>" + \
             str(randomnumber)+"</h2> </h1> </body></html>"
         sender = {"name": "IBM CUSTOMER CARE REGISTRY",
-                  "email": "ibmdemo6@yahoo.com"}
+                  "email": "ibmdemo707@gmail.com"}
         to = [{"email": e, "name": n}]
-        reply_to = {"email": "ibmdemo6@yahoo.com", "name": "IBM"}
+        reply_to = {"email": "ibmdemo707@gmail.com", "name": "IBM"}
         headers = {"Some-Custom-Name": "unique-id-1234"}
         params = {"parameter": "My param value",
                   "subject": "Email Verification"}
@@ -138,9 +138,9 @@ def verifyemail():
         html_content = "<html><body><h1>Your Customer Id  is : <h2>" + \
             str(id)+"</h2> </h1> </body></html>"
         sender = {"name": "IBM CUSTOMER CARE REGISTRY",
-                  "email": "ibmdemo6@yahoo.com"}
+                  "email": "ibmdemo707@gmail.com"}
         to = [{"email": email, "name": name}]
-        reply_to = {"email": "ibmdemo6@yahoo.com", "name": "IBM"}
+        reply_to = {"email": "ibmdemo707@gmail.com", "name": "IBM"}
         headers = {"Some-Custom-Name": "unique-id-1234"}
         params = {"parameter": "My param value",
                   "subject": "Email Verification"}

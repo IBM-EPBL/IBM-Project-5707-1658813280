@@ -18,7 +18,7 @@
     <img src="/Images_content/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center" size=20px>CUSTOMER CARE REGISTRY</h3>
+  <h3 align="center" size=40px>CUSTOMER CARE REGISTRY</h3>
 
   <p align="center">
     TECHNOLOGY : CLOUD APP DEVELOPMENT <br />
