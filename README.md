@@ -31,7 +31,7 @@
 <hr>
 
 
-[PROJECT COMPLEATION](content://com.yowhatsapp.provbea)r.media/item/fe371eb3-da1e-4caa-8aa4-1ca139244bea)
+[PROJECT COMPLEATION](content://com.yowhatsapp.provider.media/item/fe371eb3-da1e-4caa-8aa4-1ca139244bea)
 
 <hr>
 
