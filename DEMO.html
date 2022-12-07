@@ -1,0 +1,81 @@
+
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>Video</title>
+        <style>
+            .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+        </style>
+    </head>
+<body> 
+<h2 style="text-align: center;   font-family: Helvetica, sans-serif;
+font-size: 46px;  " >
+CUSTOMER CARE REGISTRY 
+</h2>
+<div style="text-align:center"> 
+  <button onclick="playPause()" class="button button1">Play/Pause</button> 
+  <button onclick="makeBig()" class="button button1 ">Big</button>
+  <button onclick="makeSmall()" class="button button1">Small</button>
+  <button onclick="makeNormal()" class="button button1">Normal</button>
+  <br><br>
+  <video id="video1" width="420" controls>
+    <source src="https://static-webpage.s3.jp-tok.cloud-object-storage.appdomain.cloud/PROJECT%20DEMONSTRATION.mp4" type="video/mp4">
+   
+    Your browser does not support HTML video.
+  </video>
+</div> 
+<div style="text-align: center; font-size: medium;">
+    <h4> TEAM ID : PNT2022TMID09747</h4>
+    <h4> GITHUB LINK : <a href="https://github.com/IBM-EPBL/IBM-Project-5707-1658813280"> LINK HERE</a></h4>
+    <h4> PROJECT WEB : <a href="http://169.51.204.215:31967/"> LINK HERE</a></h4>
+</div>
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 1500; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 1000; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 500; 
+} 
+</script> 
+
+</body> 
+</html>
